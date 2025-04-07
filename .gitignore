@@ -1,0 +1,49 @@
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Flask Instance and SQLite DB
+instance/
+*.sqlite3
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+ENV/
+.virtualenv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.DS_Store
+
+# Environment variables file
+.env
+*.env
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Byte-compiled and optimized files
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# CPanel specific
+public_html/cgi-bin/
+passenger_wsgi.py
+tmp/
+
+# Pytest cache
+.pytest_cache/
