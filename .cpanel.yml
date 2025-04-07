@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export /home/nodeappl/mp3git.nodeapplication.com/
+    - /bin/cp * $DEPLOYPATH
