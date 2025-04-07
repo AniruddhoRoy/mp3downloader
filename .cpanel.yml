@@ -1,5 +1,7 @@
 ---
 deployment:
   tasks:
-    - export /home/nodeappl/mp3git.nodeapplication.com/
-    - /bin/cp * $DEPLOYPATH
+    - export DEPLOY_PATH="/home/nodeappl/mp3git.nodeapplication.com"
+    - export TARGET_PATH="/home/nodeappl/mp3.nodeapplication.com"
+    - echo "Copying files from $DEPLOY_PATH to $TARGET_PATH"
+    - rsync -av "$DEPLOY_PATH/" "$TARGET_PATH/"
