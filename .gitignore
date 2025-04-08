@@ -42,7 +42,7 @@ htmlcov/
 
 # CPanel specific
 public_html/cgi-bin/
-passenger_wsgi.py
+# passenger_wsgi.py
 tmp/
 
 # Pytest cache
